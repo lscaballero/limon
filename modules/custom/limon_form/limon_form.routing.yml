@@ -1,0 +1,7 @@
+limon.admin_settings:
+  path: '/admin/config/services/limon'
+  defaults:
+    _form: '\Drupal\limon_form\Form\LimonConfigurationForm'
+    _title: 'Limon Form'
+  requirements:
+    _permission: 'administer site configuration'

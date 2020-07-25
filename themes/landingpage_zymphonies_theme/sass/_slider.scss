@@ -1,0 +1,36 @@
+
+/*Flexslider*/
+
+.hero-banner{
+    position: relative;
+    overflow: hidden;
+
+	p,h2{
+		color: #fff;
+	}
+
+	img{
+		width: 100%;
+        vertical-align: top;
+	}
+
+	ul{
+		margin: 0;
+		padding: 0;
+        vertical-align: top;
+	}
+}
+
+.hero-banner-description{
+    display: none;
+    position: absolute;
+    top: 30%;
+    font-size: 1.3em;
+    width: 30%;
+    line-height: 150%;
+
+    .btn{
+    	background: #28a745;
+    	border-radius:20px;
+    }
+}

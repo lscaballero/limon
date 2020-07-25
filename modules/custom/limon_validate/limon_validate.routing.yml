@@ -1,0 +1,7 @@
+limon.validar:
+  path: '/validar'
+  defaults:
+    _form: '\Drupal\limon_validate\Form\LimonValidateForm'
+    _title: 'Validar edad'
+  requirements:
+    _permission: 'access content'

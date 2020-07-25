@@ -1,0 +1,50 @@
+.home-content{
+    background-image: url("http://localhost/limon/sites/default/files/2020-07/water-lemon.jpg");
+    text-align: center;
+}
+.home-content .block-title{
+    display: inline-block;
+    padding-bottom: 2rem;
+    position: relative;
+    text-align: center;
+}
+.home-content .block-text{
+    max-width: 90%;
+}
+.color-white{
+    color: #fff;
+}
+.color-yellow{
+    color: #ffd100;
+}
+.block-warning{
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    text-align: center;
+}
+.home-content .block-warning p{
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: "futuraMdBtmedium";
+    font-size: 1rem;
+    line-height: 1;
+    margin: 0;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.head-formulario{
+    text-align: center;
+    padding: 50px;
+}
+#limon-contact-limon-form{
+    background-image: url('http://localhost/limon/sites/default/files/2020-07/healthy-yellow-colors-raw-1343537.jpg');
+    padding: 40px;
+}
+
+@media (min-width: 1200px){
+    .principal-title,  .title.principal-title.regular {
+        font-size: 4.7rem;
+    }
+}

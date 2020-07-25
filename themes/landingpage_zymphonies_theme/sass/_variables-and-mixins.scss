@@ -1,0 +1,44 @@
+
+/*Variables*/
+
+$fontFamily: 'Poppins', sans-serif;
+$titleFontFamily: 'Poppins', sans-serif;
+$baseFontSize: 14px;
+$bodyBGColor: #fff;
+$baseFontColor: #333;
+
+$linkColor: #4a8bfc;
+$linkColorHover: #5B98FF;
+
+/*Header*/
+$headerBGColor: #000;
+$headerTextColor: #fff;
+
+$secColor: #fc466b;
+
+/*Menu Color*/
+$menuTextColor: #fff;
+$menuTextActiveColor: #4499fc;
+
+$mobileMenuBg: #000;
+$desktopMenuTextColor: #fff;
+$desktopMenuDropDownBg: #000;
+$borderColor: #e8e8e8;
+
+/*Mixins*/
+
+@mixin globalButton(){
+	background: $linkColor;
+	cursor: pointer;
+	color: #fff;
+	border: 0;
+	padding: 12px 18px;
+	line-height: 100%;
+	margin-right: 2px;
+	border-radius: 4px;
+}
+
+@mixin globalButtonHover(){
+	background: $linkColorHover;
+	color: #fff;
+}

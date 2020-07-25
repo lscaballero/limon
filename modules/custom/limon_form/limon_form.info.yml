@@ -1,0 +1,5 @@
+type: module
+name: contact_limon
+description: Main personalization contact.
+core: 8.x
+package: LIMON

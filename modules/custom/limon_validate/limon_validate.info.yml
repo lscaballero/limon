@@ -1,0 +1,5 @@
+type: module
+name: validate_limon
+description: Validación de edad.
+core: 8.x
+package: LIMON
